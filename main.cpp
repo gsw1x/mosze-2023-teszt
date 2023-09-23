@@ -23,5 +23,6 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     delete [] b; //Hiányzik a delete [] b
+    std::cout << "Minden hiba javításra került!" << std:endl;
     return 0;
 }
